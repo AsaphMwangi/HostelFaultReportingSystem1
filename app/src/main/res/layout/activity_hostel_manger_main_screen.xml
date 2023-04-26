@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HostelMangerMainScreen"
+    android:background="#FFFFFF"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/navigationLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ViewIssues"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4CAF50"
+                android:text="View Issues"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:cornerRadius="10dp" />
+
+            <Button
+                android:id="@+id/Settings2"
+                android:layout_width="wrap_content"
+                android:layout_height="63dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4CAF50"
+                android:text="Settings"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                app:cornerRadius="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragmentViewer2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#BF1111"
+            android:backgroundTint="#FFFFFF"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>

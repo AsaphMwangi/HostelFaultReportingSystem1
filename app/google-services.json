@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "143892139976",
+    "project_id": "hostelfaultreportingsyst-87f12",
+    "storage_bucket": "hostelfaultreportingsyst-87f12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143892139976:android:0bc7443bc492b2d6d5bafd",
+        "android_client_info": {
+          "package_name": "com.example.hostelfaultreportingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143892139976-u9gf7lovbjqu9so5530cqplanvffgl64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOp95d6UANBZ2Fnb66J6c0wNCGJkT6hpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143892139976-u9gf7lovbjqu9so5530cqplanvffgl64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".StudentMessagesFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:labelFor="@+id/IssueTitleValue"
+        android:text="@string/hostel_name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <RadioGroup
+        android:id="@+id/SelectHostelStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/black_rectangular_border">
+
+        <RadioButton
+            android:id="@+id/HostelA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hostel A"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/HostelB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hostel B"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/HostelC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hostel C"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/HostelD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hostel D"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/HostelE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hostel E"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:labelFor="@+id/RoomNumber"
+        android:text="@string/room_no"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/RoomNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:background="@drawable/black_rectangular_border"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="5dp"
+        android:textColor="#FF0000"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="#FF0000" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:labelFor="@+id/IssueType"
+        android:text="@string/issue_type"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/IssueType"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:background="@drawable/black_rectangular_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textColor="#FF0000"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="#FF0000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Click to add image"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageAttachment"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/add_a_photo_black_24dp"
+            android:maxWidth="200dp"
+            android:minWidth="200dp"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/SubmitIssue"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#4CAF50"
+        android:shadowColor="#FD5454"
+        android:text="@string/submit"
+        android:textSize="16sp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/ViewRecentIssues"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/view_recent_issues"
+        android:textSize="16sp"
+        app:cornerRadius="20dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar5"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+</LinearLayout>
